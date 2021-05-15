@@ -1,0 +1,6 @@
+# IDEs
+.vscode
+.idea
+
+# Executable
+server
