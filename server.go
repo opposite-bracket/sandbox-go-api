@@ -19,14 +19,14 @@ type Response struct {
 func main() {
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		w.Header().Set("API", "Sandbox API1")
+		w.Header().Set("API", "Sandbox Go API")
 		w.Header().Set("Content-Type", "application/json")
 
 		var js []byte
 		var err error
 
 		status := http.StatusOK
-		msg := Response{Message: "Response to Sandbox API 1"}
+		msg := Response{Message: "Response to Sandbox Go API"}
 
 		if r.URL.Path != "/" {
 			log.Printf("Request not found: %s %s", r.Method, r.URL.Path)
