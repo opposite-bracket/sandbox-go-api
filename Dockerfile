@@ -1,11 +1,11 @@
 # Build image:
-#   docker build -t sandbox-api1-img .
+#   docker build -t sandbox-gapi-img .
 # run command in daemon mode:
 #   docker run --rm -d -p 3000:3000 --name sapi1 sandbox-api1-img
 # overwrite command so we can run shell in container
 # (will replace running server with CMD, with ENTRYPOINT, it
 # will ssh into running server)
-#   docker run -it --rm -p 3000:3000 --name sapi1 sandbox-api1-img /bin/sh
+#   docker run -it --rm -p 3000:3000 --name gapi sandbox-gapi-img /bin/sh
 # apibuilder image is 868MB
 # image running api is 6.35MB
 
