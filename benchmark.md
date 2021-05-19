@@ -8,36 +8,36 @@ Server Hostname:        127.0.0.1
 Server Port:            3000
 
 Document Path:          /
-Document Length:        42 bytes
+Document Length:        40 bytes
 
 Concurrency Level:      50
-Time taken for tests:   1.981 seconds
+Time taken for tests:   0.927 seconds
 Complete requests:      2000
 Failed requests:        0
-Total transferred:      498000 bytes
-HTML transferred:       84000 bytes
-Requests per second:    1009.36 [#/sec] (mean)
-Time per request:       49.536 [ms] (mean)
-Time per request:       0.991 [ms] (mean, across all concurrent requests)
-Transfer rate:          245.44 [Kbytes/sec] received
+Total transferred:      338000 bytes
+HTML transferred:       80000 bytes
+Requests per second:    2156.77 [#/sec] (mean)
+Time per request:       23.183 [ms] (mean)
+Time per request:       0.464 [ms] (mean, across all concurrent requests)
+Transfer rate:          355.95 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    1   1.1      1       8
-Processing:    11   48  10.8     47      83
-Waiting:        3   39   9.1     38      76
-Total:         11   49  10.7     49      85
+Connect:        0    1   0.7      1       4
+Processing:     6   22   6.7     21      49
+Waiting:        3   21   6.3     20      49
+Total:          6   23   6.7     22      50
 
 Percentage of the requests served within a certain time (ms)
-  50%     49
-  66%     53
-  75%     56
-  80%     58
-  90%     63
-  95%     67
-  98%     72
-  99%     75
- 100%     85 (longest request)
+  50%     22
+  66%     25
+  75%     26
+  80%     28
+  90%     31
+  95%     35
+  98%     39
+  99%     42
+ 100%     50 (longest request)
 ```
 
 ## 2 terminals
@@ -52,36 +52,36 @@ Server Hostname:        127.0.0.1
 Server Port:            3000
 
 Document Path:          /
-Document Length:        42 bytes
+Document Length:        40 bytes
 
 Concurrency Level:      50
-Time taken for tests:   3.208 seconds
+Time taken for tests:   1.795 seconds
 Complete requests:      2000
 Failed requests:        0
-Total transferred:      498000 bytes
-HTML transferred:       84000 bytes
-Requests per second:    623.46 [#/sec] (mean)
-Time per request:       80.197 [ms] (mean)
-Time per request:       1.604 [ms] (mean, across all concurrent requests)
-Transfer rate:          151.60 [Kbytes/sec] received
+Total transferred:      338000 bytes
+HTML transferred:       80000 bytes
+Requests per second:    1114.18 [#/sec] (mean)
+Time per request:       44.876 [ms] (mean)
+Time per request:       0.898 [ms] (mean, across all concurrent requests)
+Transfer rate:          183.88 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    2   1.6      1      20
-Processing:     6   78  16.1     76     153
-Waiting:        4   65  14.2     63     131
-Total:          6   79  16.1     78     155
+Connect:        0    2   2.1      2      11
+Processing:     7   42  14.3     41     109
+Waiting:        2   40  13.8     39     105
+Total:          7   44  14.2     44     111
 
 Percentage of the requests served within a certain time (ms)
-  50%     78
-  66%     84
-  75%     89
-  80%     92
-  90%    102
-  95%    110
-  98%    117
-  99%    123
- 100%    155 (longest request)
+  50%     44
+  66%     49
+  75%     52
+  80%     55
+  90%     61
+  95%     68
+  98%     81
+  99%     94
+ 100%    111 (longest request)
 ```
 
 **Terminal 2**
@@ -92,34 +92,34 @@ Server Hostname:        127.0.0.1
 Server Port:            3000
 
 Document Path:          /
-Document Length:        42 bytes
+Document Length:        40 bytes
 
 Concurrency Level:      50
-Time taken for tests:   3.210 seconds
+Time taken for tests:   1.798 seconds
 Complete requests:      2000
 Failed requests:        0
-Total transferred:      498000 bytes
-HTML transferred:       84000 bytes
-Requests per second:    622.96 [#/sec] (mean)
-Time per request:       80.262 [ms] (mean)
-Time per request:       1.605 [ms] (mean, across all concurrent requests)
-Transfer rate:          151.48 [Kbytes/sec] received
+Total transferred:      338000 bytes
+HTML transferred:       80000 bytes
+Requests per second:    1112.35 [#/sec] (mean)
+Time per request:       44.950 [ms] (mean)
+Time per request:       0.899 [ms] (mean, across all concurrent requests)
+Transfer rate:          183.58 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
-Connect:        0    2   1.7      1      20
-Processing:     6   78  16.3     76     136
-Waiting:        4   65  14.2     63     110
-Total:          6   79  16.4     78     136
+Connect:        0    3   2.2      2      11
+Processing:    10   42  13.7     41     120
+Waiting:        4   39  13.1     38     119
+Total:         11   44  13.6     44     123
 
 Percentage of the requests served within a certain time (ms)
-  50%     78
-  66%     85
-  75%     89
-  80%     92
-  90%    102
-  95%    110
-  98%    118
-  99%    123
- 100%    136 (longest request)
+  50%     44
+  66%     48
+  75%     52
+  80%     54
+  90%     61
+  95%     66
+  98%     80
+  99%     94
+ 100%    123 (longest request)
 ```

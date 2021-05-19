@@ -1,3 +1,3 @@
-module github.com/opposite-bracket/sandbox-api1
+module github.com/opposite-bracket/sandbox-go-api
 
 go 1.15
